@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		126846DD2789F5D200F0388D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126846DC2789F5D200F0388D /* AppDelegate.swift */; };
 		126846DF2789F5D200F0388D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126846DE2789F5D200F0388D /* SceneDelegate.swift */; };
-		126846E12789F5D200F0388D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126846E02789F5D200F0388D /* ViewController.swift */; };
+		126846E12789F5D200F0388D /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126846E02789F5D200F0388D /* LocationListViewController.swift */; };
 		126846E42789F5D200F0388D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126846E22789F5D200F0388D /* Main.storyboard */; };
 		126846E62789F5D400F0388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126846E52789F5D400F0388D /* Assets.xcassets */; };
 		126846E92789F5D400F0388D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126846E72789F5D400F0388D /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		126846D92789F5D200F0388D /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126846DC2789F5D200F0388D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		126846DE2789F5D200F0388D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		126846E02789F5D200F0388D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		126846E02789F5D200F0388D /* LocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
 		126846E32789F5D200F0388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		126846E52789F5D400F0388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126846E82789F5D400F0388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 				126846F02789F6DF00F0388D /* weatherlocation.swift */,
 				126846DC2789F5D200F0388D /* AppDelegate.swift */,
 				126846DE2789F5D200F0388D /* SceneDelegate.swift */,
-				126846E02789F5D200F0388D /* ViewController.swift */,
+				126846E02789F5D200F0388D /* LocationListViewController.swift */,
 				126846E22789F5D200F0388D /* Main.storyboard */,
 				126846E52789F5D400F0388D /* Assets.xcassets */,
 				126846E72789F5D400F0388D /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126846E12789F5D200F0388D /* ViewController.swift in Sources */,
+				126846E12789F5D200F0388D /* LocationListViewController.swift in Sources */,
 				126846F12789F6DF00F0388D /* weatherlocation.swift in Sources */,
 				126846DD2789F5D200F0388D /* AppDelegate.swift in Sources */,
 				126846DF2789F5D200F0388D /* SceneDelegate.swift in Sources */,
